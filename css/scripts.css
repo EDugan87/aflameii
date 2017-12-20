@@ -1,0 +1,22 @@
+ .carousel-inner > .carousel-item > img, .carousel-inner > .carousel-item > a > img, carousel {
+   /* width: 800px !important; */
+    width: 100%;
+    height: 400px !important;
+}
+
+.text-indent {
+  text-indent: 25px !important;
+}
+
+.dot-bottom {
+  border-bottom: 2px dotted grey !important;
+  border-bottom-width: thin !important;
+}
+
+.col > a, .col > a:visited, .col > a:active {
+  color: #00a8c1 !important;
+}
+
+.disabled {
+    cursor: not-allowed !important;
+}
