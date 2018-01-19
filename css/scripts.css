@@ -1,4 +1,30 @@
- .carousel-inner > .carousel-item > img, .carousel-inner > .carousel-item > a > img, carousel {
+.dropdown-item {
+    border-bottom: 1px black solid;
+    transition: 0.3s;
+}
+
+.dropdown-item:hover {
+    background-color: #5cb85c;
+    color: #FFFFFF;
+}
+
+.dropdown-menu {
+    margin: 0px;
+    padding: 0px;
+}
+
+.dropdown-item:first-child {
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+}
+
+.dropdown-item:last-child {
+    border-bottom-left-radius: 2px;
+    border-bottom-right-rdaius: 2px;
+}
+
+
+.carousel-inner > .carousel-item > img, .carousel-inner > .carousel-item > a > img, carousel {
    /* width: 800px !important; */
     width: 100%;
     height: 400px !important;
@@ -19,4 +45,39 @@
 
 .disabled {
     cursor: not-allowed !important;
+}
+
+.green-bottom {
+    
+}
+
+.shadow-bottom {
+    -moz-box-shadow:    inset  0 -10px 10px -10px grey;
+    -webkit-box-shadow: inset  0 -10px 10px -10px grey;
+     box-shadow:        inset  0 -10px 10px -10px grey;
+}
+
+.shadow-right {
+    -mox-box-shadow: inset -10px 0px 10px -5px grey;
+    -webkit-box-shadow: inset -10px 0px 10px -5px grey;
+    box-shadow: inset -10px 0px 10px -5px grey;
+}
+
+.shadow-left {
+    -mox-box-shadow: inset 10px 0px 10px -5px grey;
+    -webkit-box-shadow: inset 10px 0px 10px -5px grey;
+    box-shadow: inset 10px 0px 10px -5px grey;
+}
+
+.shadow-left-shadow-bottom {
+    box-shadow: inset 10px 0px 10px -10px grey, inset 0px -10px 10px -10px grey;
+}
+
+.shadow-right-shadow-bottom {
+    box-shadow: inset -10px 0px 10px -10px grey, inset 0px -10px 10px -10px grey;
+}
+
+.inverse-circle-pics img {
+    margin: 0 auto;
+    border: 7px solid green;
 }
